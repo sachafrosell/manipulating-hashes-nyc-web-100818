@@ -15,7 +15,7 @@ def first_challenge
 
   #your code here
   contacts.each do |key, value|
-    
+    "Jon Snow".each do
 
   #remember to return your newly altered contacts hash!
   contacts
