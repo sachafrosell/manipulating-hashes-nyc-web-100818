@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
 groceries_array = []
-groceries_array.push(groceries.values)
+groceries_array.push(groceries.values).concat()
 groceries_array
 
 end
