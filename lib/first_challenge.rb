@@ -16,7 +16,9 @@ def first_challenge
   #your code here
   contacts.each do |key, value|
     value.each do |attribute, answer|
-      if attribute == 
+      if attribute == :favorite_icecream_flavors
+        answer.each do |flavor|
+          puts "flavor"
 
   #remember to return your newly altered contacts hash!
   contacts
